@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@0,500;1,200&family=Poppins:wght@100;300;500;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family:'Poppins', sans-serif;
+    font-weight:100;
+    color: #606060;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+.galeriaProductos{
+    width: 100%;
+
+   }
+.card{
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  nav{
+    background-color: rgb(255, 255, 255);
+    border-bottom: rgb(180, 181, 181) 2px solid ;
+    display: fixed;
+    a{
+        font-family: 'Poppins', sans-serif;;
+        padding: 30px;
+    }
+    .title{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5em;
+        color: black;
+        &:hover{
+            color: #606060;
+        }
+    }
+    .link{
+        color: #606060;
+        font-size: 0.9em;
+        margin-left: -20px;
+        padding: 0px 30px;
+        &:hover{
+            color:#3097db;
+        }
+    }
+    .linkCarrito{
+        color: #3097db;
+        font-size: 1em;
+        margin-left: -25px;
+        padding: 0px 30px;
+        &:hover{
+            color: black;
+        }
+
+    }
+  }
+  .svgCarrito{
+    margin-bottom: 5px;
+  }
+
+
+
+
+
+  .galeriaProductos{
+
+    font-family:'Poppins', sans-serif;
+    img{
+        
+        margin-top: 20px;
+        border-top: rgb(181, 180, 180) solid 1px;
+        border-bottom: rgb(181, 180, 180) solid 1px;
+    }
+    h2{
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #606060;
+    }
+    .descriptionProduct{
+        font-size: 1.5em;
+        font-weight: 300;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: left;
+    }
+
+  }
+    .h2Groso{
+    color: #3097db !important;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: left;
+    }
+    .pGroso{
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+    text-align: left;
+    }
+
+    @media (max-width: 993px){
+
+        .card{
+            margin-left: 0px !important;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+          }
+
+
+    }
