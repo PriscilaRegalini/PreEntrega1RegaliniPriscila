@@ -15,6 +15,7 @@ h1{
 body{
     background-color: rgb(247, 247, 247);
 }
+
 .galeriaProductos{
     width: 100%;
 
@@ -28,11 +29,26 @@ body{
   nav{
     background-color: rgb(255, 255, 255);
     border-bottom: rgb(180, 181, 181) 2px solid ;
-    display: fixed;
     a{
         font-family: 'Poppins', sans-serif;;
         padding: 30px;
     }
+   .btnCarrito{
+    fill:#606060;
+    background-color:  rgb(255, 255, 255);
+    &:hover{
+    fill:#3097db;
+    }
+    
+    &:hover{
+    background-color:#cce9fc;
+    border-color:#3097db;
+    }
+   }
+   .spanCompra{
+    color: white;
+    background-color:#3097db;
+   }
     .title{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 2.5em;
@@ -44,30 +60,16 @@ body{
     .link{
         color: #606060;
         font-size: 0.9em;
-        margin-left: -20px;
-        padding: 0px 30px;
+        padding: 40px!important;
+        padding: 30px 30px;
         &:hover{
             color:#3097db;
         }
-    }
-    .linkCarrito{
-        color: #3097db;
-        font-size: 1em;
-        margin-left: -25px;
-        padding: 0px 30px;
-        &:hover{
-            color: black;
-        }
-
     }
   }
   .svgCarrito{
     margin-bottom: 5px;
   }
-
-
-
-
 
   .galeriaProductos{
 
@@ -79,7 +81,7 @@ body{
         border-bottom: rgb(181, 180, 180) solid 1px;
     }
     h2{
-        font-size: 1.8em;
+        font-size: 1.5em;
         font-weight: bold;
         color: #606060;
     }
@@ -92,20 +94,8 @@ body{
     }
 
   }
-    .h2Groso{
-    color: #3097db !important;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 500;
-    margin-top: 20px;
-    text-align: left;
-    }
-    .pGroso{
-    font-family: 'IBM Plex Mono', monospace;
-    font-style: italic;
-    text-align: left;
-    }
 
-    @media (max-width: 993px){
+    @media (max-width: 1005px){
 
         .card{
             margin-left: 0px !important;
@@ -113,6 +103,25 @@ body{
             padding: 30px;
             text-align: center;
           }
+          h2{
+            font-size: 2em;
+            font-weight: bold;
+            color: #606060;
+        }
 
+    }
+    @media (max-width: 1185px){
+
+        .card{
+            margin-left: 0px !important;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+          }
+          h2{
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #606060;
+        }
 
     }
